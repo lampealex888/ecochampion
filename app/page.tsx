@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 
-export default function Component() {
+export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <main className="flex-1">
