@@ -12,7 +12,7 @@ export default function LogoutButton() {
         })
       }
     >
-      Log Out
+      Logout
     </Button>
   );
 }

@@ -4,10 +4,13 @@ import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
+      <Navbar />
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
           <div className="container flex flex-col items-center justify-center space-y-4 px-4 md:px-6">
@@ -115,6 +118,7 @@ export default function Home() {
             </form>
           </div>
         </section>
+        <Footer />
       </main>
     </div>
   );
