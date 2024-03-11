@@ -1,8 +1,9 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Github } from "lucide-react";
 import { signIn } from "next-auth/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function SigninWithGithub() {
   return (
@@ -15,7 +16,8 @@ export default function SigninWithGithub() {
       className="mt-6"
       variant="secondary"
     >
-      Login with Github <Github className="w-4 h-4 ml-4" />
+      Login with Github
+      <FontAwesomeIcon icon={faGithub} className="w-5 h-5 ml-4" />
     </Button>
   );
 }

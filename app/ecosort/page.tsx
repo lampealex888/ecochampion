@@ -6,6 +6,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
 import Camera from "@/app/components/Camera";
+import Image from "next/image";
 
 export default async function Component() {
   const session = await getServerSession(authOptions);
@@ -31,21 +32,13 @@ export default async function Component() {
         )}
       </header>
       <main className="flex-1 flex flex-col items-center justify-center p-4">
-        <div className="grid gap-4 text-center">
-          <Camera />
-          <div className="flex flex-col gap-2">
-            <Button size="lg">Capture</Button>
-            <Button size="lg" variant="outline">
-              Retake
-            </Button>
-          </div>
-        </div>
+        <Camera />
       </main>
-      <div className="grid w-full gap-4 p-4">
+      {/* <div className="grid w-full gap-4 p-4">
         <div className="grid gap-1">
           <h2 className="text-lg font-semibold">Classification Result</h2>
           <p className="text-sm">
-            The captured item has been classified as {" "}
+            The captured item has been classified as{" "}
             <span className="font-semibold">Organic Waste</span>.
             {"\n                  "}
           </p>
@@ -53,7 +46,7 @@ export default async function Component() {
         <div className="grid gap-1">
           <h2 className="text-lg font-semibold">History</h2>
           <div className="flex items-center gap-4">
-            <img
+            <Image
               alt="Captured image"
               className="aspect-square rounded-md object-cover"
               height="64"
@@ -65,7 +58,7 @@ export default async function Component() {
             </Button>
           </div>
           <div className="flex items-center gap-4">
-            <img
+            <Image
               alt="Captured image"
               className="aspect-square rounded-md object-cover"
               height="64"
@@ -77,7 +70,7 @@ export default async function Component() {
             </Button>
           </div>
           <div className="flex items-center gap-4">
-            <img
+            <Image
               alt="Captured image"
               className="aspect-square rounded-md object-cover"
               height="64"
@@ -89,7 +82,7 @@ export default async function Component() {
             </Button>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

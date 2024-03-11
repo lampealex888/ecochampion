@@ -17,9 +17,9 @@ export default async function MainNav() {
       <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
-          href="eco-sorter"
+          href="ecosort"
         >
-          EcoSorter
+          EcoSort
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4 align"
