@@ -8,11 +8,11 @@ export default function LogoutButton() {
     <Button
       onClick={() =>
         signOut({
-          callbackUrl: `${window.location.origin}/auth`,
+          callbackUrl: `${window.location.origin}/`,
         })
       }
     >
-      Log Out
+      Logout
     </Button>
   );
 }

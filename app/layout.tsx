@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "@/styles/globals.css";
 import { cn } from "@/lib/utils";
-import Header from "@/app/components/Navbar";
-import Footer from "@/app/components/Footer";
 import { Toaster } from "@/components/ui/toaster";
+import ModelProvider from "@/app/utils/ModelContext";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -31,10 +30,10 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <Header />
-        {children}
-        <Toaster />
-        <Footer />
+        <ModelProvider>
+          {children}
+          <Toaster />
+        </ModelProvider>
       </body>
     </html>
   );
