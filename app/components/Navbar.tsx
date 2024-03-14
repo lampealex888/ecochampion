@@ -23,15 +23,15 @@ export default async function MainNav() {
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4 align"
-          href="#"
+          href="ecolocator"
         >
-          Lorem Ipsum
+          EcoLocator
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href="#"
         >
-          Lorem Ipsum
+          EcoExchange
         </Link>
         {session ? (
           <LogoutButton />
