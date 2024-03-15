@@ -5,6 +5,7 @@ import Footer from "@/app/components/Footer";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
+require("dotenv").config();
 
 export default async function Component() {
   const session = await getServerSession(authOptions);
@@ -46,7 +47,11 @@ export default async function Component() {
             height="450"
             loading="lazy"
             allowFullScreen
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAYbe366i8LADv4d586uJsAdSjWrLiEczY&q=Recycling+Facilities"
+            src={
+              "https://www.google.com/maps/embed/v1/place?key=" +
+              process.env.MAPS_API_KEY +
+              "&q=Recycling+Facilities"
+            }
           ></iframe>
         </div>
         {/* Facilities List */}
