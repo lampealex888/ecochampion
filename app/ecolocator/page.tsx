@@ -6,14 +6,14 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
 //import axios from "axios";
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 
 require("dotenv").config();
 
 export default async function Component() {
   const session = await getServerSession(authOptions);
 
-  const [facilities, setFacilities] = useState([]);
+  //const [facilities, setFacilities] = useState([]);
 
   // useEffect(() => {
   //   const fetchFacilities = async () => {
