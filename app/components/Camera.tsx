@@ -96,7 +96,7 @@ export default function Camera() {
   return (
     <div className="grid gap-4 text-center">
       {!isCaptureEnable && !imageUrl && (
-        <div className="relative aspect-video overflow-hidden rounded-lg">
+        <div className="relative w-full md:aspect-video rounded-lg">
           <Image
             alt="Live camera feed"
             className="object-cover h-[720px] w-[1080px]"
@@ -113,7 +113,7 @@ export default function Camera() {
       )}
       {isCaptureEnable && (
         <>
-          <div className="relative w-full aspect-video overflow-hidden rounded-lg">
+          <div className="relative w-full md:aspect-video rounded-lg">
             <Webcam
               audio={false}
               width={1080}
@@ -134,19 +134,19 @@ export default function Camera() {
       )}
       {imageUrl && (
         <>
-          <div className="relative w-full aspect-video overflow-hidden rounded-lg">
+          <div className="relative w-full md:aspect-video rounded-lg">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={imageUrl} alt="Screenshot" />
           </div>
-          <p className="flex text-7xl font-bold justify-center">
-            {formatLabel(classPrediction || "")}
-          </p>
           <Button size="lg" onClick={retake}>
             Retake
           </Button>
           <Button size="lg" onClick={() => setImageUrl(null)}>
             Delete
           </Button>
+          <p className="flex text-7xl font-bold justify-center">
+            {formatLabel(classPrediction || "")}
+          </p>
         </>
       )}
     </div>

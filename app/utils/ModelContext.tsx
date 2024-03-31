@@ -36,8 +36,8 @@ const ModelProvider = ({ children }: Props) => {
       }
     };
     loadModel();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    console.log("Model loaded");
+  }, [model]);
 
   return (
     <ModelContext.Provider value={{ model }}>{children}</ModelContext.Provider>
