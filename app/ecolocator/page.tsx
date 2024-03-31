@@ -5,17 +5,40 @@ import Footer from "@/app/components/Footer";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
+//import axios from "axios";
+import { useEffect, useState } from "react";
+
 require("dotenv").config();
 
 export default async function Component() {
   const session = await getServerSession(authOptions);
 
-  // Dummy data for facilities list
-  const facilities = [
-    { name: "Facility 1", address: "123 Main St" },
-    { name: "Facility 2", address: "456 Elm St" },
-    { name: "Facility 3", address: "789 Oak St" },
-  ];
+  const [facilities, setFacilities] = useState([]);
+
+  // useEffect(() => {
+  //   const fetchFacilities = async () => {
+  //     const response = await axios.get(
+  //       "https://maps.googleapis.com/maps/api/place/nearbysearch/json",
+  //       {
+  //         params: {
+  //           location: "your-location",
+  //           radius: "10000",
+  //           type: "recycling_facility",
+  //           key: "process.env.MAPS_API_KEY",
+  //         },
+  //       }
+  //     );
+
+  //     const facilities = response.data.results.map((place) => ({
+  //       name: place.name,
+  //       address: place.vicinity,
+  //     }));
+
+  //     setFacilities(facilities);
+  //   };
+
+  //   fetchFacilities();
+  // }, []);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -55,7 +78,8 @@ export default async function Component() {
           ></iframe>
         </div>
         {/* Facilities List */}
-        <div className="w-1/3">
+
+        {/* <div className="w-1/3">
           <h2 className="text-lg font-semibold mb-2">Facilities Nearby:</h2>
           <ul>
             {facilities.map((facility, index) => (
@@ -65,7 +89,7 @@ export default async function Component() {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>
