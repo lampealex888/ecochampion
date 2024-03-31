@@ -8,8 +8,6 @@ import LogoutButton from "@/app/components/LogoutButton";
 //import axios from "axios";
 //import { useEffect, useState } from "react";
 
-require("dotenv").config();
-
 export default async function Component() {
   const session = await getServerSession(authOptions);
 
