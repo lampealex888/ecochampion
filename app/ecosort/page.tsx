@@ -5,7 +5,7 @@ import Footer from "@/app/components/Footer";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
-import Camera from "@/app/components/Camera";
+import Camera from "./Camera";
 import Image from "next/image";
 
 export default async function Component() {
