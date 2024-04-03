@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { JSX, SVGProps } from "react";
 import Navbar from "../components/Navbar";

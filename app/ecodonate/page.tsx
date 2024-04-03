@@ -2,27 +2,14 @@ import Link from "next/link";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Image from "next/image";
+import { SVGProps } from "react";
 
 export default function DonationPage() {
-  const ChevronRightIcon = (props: React.ComponentProps<"svg">) => (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
-      fill="currentColor"
-      viewBox="0 0 16 16"
-    >
-      <path
-        fill-rule="evenodd"
-        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
-      />
-    </svg>
-  );
-
   return (
-    <>
+    <main>
       <Navbar />
-      <div className="bg-gray-50/90">
+      <section className="bg-gray-50/90">
         <div className="py-12 lg:py-20">
           <div className="container grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
             <div className="space-y-3">
@@ -36,8 +23,8 @@ export default function DonationPage() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container py-12 lg:py-20">
+      </section>
+      <section className="container py-12 lg:py-20">
         <div className="mx-auto grid max-w-[900px] items-start gap-6 px-4 sm:gap-8 md:grid-cols-2 md:px-6 lg:max-w-5xl lg:gap-10">
           <div className="flex flex-col gap-2">
             <h2 className="text-2xl font-bold">Clean Air Task Force</h2>
@@ -75,7 +62,7 @@ export default function DonationPage() {
         <div className="mx-auto grid max-w-sm items-start gap-6 px-4 sm:max-w-4xl sm:grid-cols-2 sm:gap-12 md:max-w-5xl md:grid-cols-2 lg:max-w-5xl lg:grid-cols-2">
           <Card className="flex flex-col items-center p-6">
             <CardContent className="flex flex-col items-center gap-4">
-              <img
+              <Image
                 alt="Logo"
                 className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 height="75"
@@ -101,7 +88,7 @@ export default function DonationPage() {
           </Card>
           <Card className="flex flex-col items-center p-6">
             <CardContent className="flex flex-col items-center gap-4">
-              <img
+              <Image
                 alt="Logo"
                 className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 height="75"
@@ -126,8 +113,8 @@ export default function DonationPage() {
             </CardFooter>
           </Card>
         </div>
-      </div>
-      <div className="bg-gray-900">
+      </section>
+      <section className="bg-gray-900">
         <div className="container py-12 grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-3">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-100">
@@ -138,8 +125,29 @@ export default function DonationPage() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
       <Footer />
-    </>
+    </main>
+  );
+}
+
+function ChevronRightIcon(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m9 18 6-6-6-6" />
+    </svg>
   );
 }
