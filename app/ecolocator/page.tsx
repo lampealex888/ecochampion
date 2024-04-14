@@ -5,38 +5,10 @@ import Footer from "@/app/components/Footer";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
-//import axios from "axios";
-//import { useEffect, useState } from "react";
+import Map from "@/app/ecolocator/Map"; 
 
 export default async function Component() {
   const session = await getServerSession(authOptions);
-
-  //const [facilities, setFacilities] = useState([]);
-
-  // useEffect(() => {
-  //   const fetchFacilities = async () => {
-  //     const response = await axios.get(
-  //       "https://maps.googleapis.com/maps/api/place/nearbysearch/json",
-  //       {
-  //         params: {
-  //           location: "your-location",
-  //           radius: "10000",
-  //           type: "recycling_facility",
-  //           key: "process.env.MAPS_API_KEY",
-  //         },
-  //       }
-  //     );
-
-  //     const facilities = response.data.results.map((place) => ({
-  //       name: place.name,
-  //       address: place.vicinity,
-  //     }));
-
-  //     setFacilities(facilities);
-  //   };
-
-  //   fetchFacilities();
-  // }, []);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -48,7 +20,7 @@ export default async function Component() {
           </Button>
         </Link>
         <h1 className="text-lg font-semibold">
-          Find E-Waste and Recycling Facilities Near You!
+          Find E-Waste Dropoff and Recycling Facilities Near You!
         </h1>
         {session ? (
           <div className="ml-auto">
@@ -60,34 +32,11 @@ export default async function Component() {
           </Button>
         )}
       </header>
-      <main className="flex-1 flex p-4">
+      <main>
         {/* Google Maps Embed */}
-        <div className="flex-1 mr-4">
-          <iframe
-            width="100%"
-            height="450"
-            loading="lazy"
-            allowFullScreen
-            src={
-              "https://www.google.com/maps/embed/v1/place?key=" +
-              process.env.MAPS_API_KEY +
-              "&q=Recycling+Facilities"
-            }
-          ></iframe>
-        </div>
+        <Map />
         {/* Facilities List */}
-
-        {/* <div className="w-1/3">
-          <h2 className="text-lg font-semibold mb-2">Facilities Nearby:</h2>
-          <ul>
-            {facilities.map((facility, index) => (
-              <li key={index} className="mb-2">
-                <p className="font-semibold">{facility.name}</p>
-                <p>{facility.address}</p>
-              </li>
-            ))}
-          </ul>
-        </div> */}
+        <div className="w-1/3"></div>
       </main>
       <Footer />
     </div>
