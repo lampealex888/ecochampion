@@ -8,7 +8,7 @@ interface Facility {
   vicinity: string;
 }
 
-const Map = () => {
+export default function Map() {
   const mapRef = useRef<HTMLDivElement>(null);
   const bootstrapSrc = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_MAPS_API_KEY}&libraries=places`;
   const [places, setPlaces] = useState<google.maps.places.PlaceResult[]>([]);
@@ -24,17 +24,17 @@ const Map = () => {
       const { PlacesService } = await loader.importLibrary('places');
       const { AdvancedMarkerElement } = await google.maps.importLibrary("marker") as google.maps.MarkerLibrary;
 
-      var initialLocation;
+      var clientLocation;
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
-          initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-          console.log(initialLocation);
-      
+          clientLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
           const mapOptions: google.maps.MapOptions = {
-            center: initialLocation,
+            center: clientLocation,
+            zoom: 15,
             mapId: 'ECOLOCATOR_MAP'
           };
-      
+
           const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
       
           var request = {
@@ -49,6 +49,9 @@ const Map = () => {
             if (status === google.maps.places.PlacesServiceStatus.OK && results) {
               for (var i = 0; i < results.length; i++) {
                 const marker = new AdvancedMarkerElement({ map, position: results[i].geometry?.location });
+              }
+              if (results[0].geometry?.location) {
+                map.setCenter(results[0].geometry.location);
               }
               setPlaces(results);
             }
@@ -80,6 +83,4 @@ const Map = () => {
       </div>
     </div>
   );
-};
-
-export default Map;
+}

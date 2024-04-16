@@ -5,7 +5,8 @@ import Footer from "@/app/components/Footer";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
-import Map from "@/app/ecolocator/Map"; 
+import Map from "@/app/ecolocator/Map";
+import Events from "@/app/ecolocator/Events";
 
 export default async function Component() {
   const session = await getServerSession(authOptions);
@@ -35,8 +36,10 @@ export default async function Component() {
       <main>
         {/* Google Maps Embed */}
         <Map />
-        {/* Facilities List */}
-        <div className="w-1/3"></div>
+        {/* Events List */}
+        <div className="p-4">
+          <Events />
+        </div>
       </main>
       <Footer />
     </div>
