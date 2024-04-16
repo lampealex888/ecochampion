@@ -1,0 +1,279 @@
+{
+  "search_metadata": {
+    "id": "661dac390574f5cd2c618a7d",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/80a12e7009f78ce1/661dac390574f5cd2c618a7d.json",
+    "created_at": "2024-04-15 22:37:45 UTC",
+    "processed_at": "2024-04-15 22:37:45 UTC",
+    "google_url": "https://www.google.com/search?q=recycling+events+near+me&oq=recycling+events+near+me&uule=w+CAIQICIbUGl0dHNidXJnaCxQQSxVbml0ZWQgU3RhdGVz&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/80a12e7009f78ce1/661dac390574f5cd2c618a7d.html",
+    "total_time_taken": 1.13
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "recycling events near me",
+    "location_requested": "Pittsburgh, PA",
+    "location_used": "Pittsburgh,PA,United States",
+    "google_domain": "google.com",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "recycling events near me",
+    "total_results": 296000000,
+    "time_taken_displayed": 0.3,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "events_results": [
+    {
+      "title": "Spring Roadside Cleanup",
+      "date": {
+        "start_date": "Apr 20",
+        "when": "Sat, 8:30 AM"
+      },
+      "address": ["McCandless Public Works Department, 9957 Grubbs Rd", "Wexford, PA"],
+      "link": "https://www.google.com/search?oq=recycling+events+near+me&uule=w+CAIQICIbUGl0dHNidXJnaCxQQSxVbml0ZWQgU3RhdGVz&q=spring+roadside+cleanup,+mccandless+public+works+department,+20+apr&sourceid=chrome&ie=UTF-8&si=AKbGX_rO4P19IF_yO85wYpkEaz-W_oZWd5JUOOVnUVftf2aeof2q3K4cNFTQZCGRFtTNx2nRAtcH9hB8I3rDoh0hvLJEIkwrlFanRUQ9QfAX4Mb1Zasb3vh-sS1rtWOfR6YDmGob7Y00O1GU1abWAwwoXMdCDeUgqm0rCTm1Ib1kct_Xfj1b3B8FYP4wRNiHdpQ6Q4O33ialW_E7_q5hEw2j6t4ogOSav-8B6mvgmeyzBQSSuVz5JcaDR8pr60WHk6-5MQLe4hzB&source=ev.im&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QsdoCegQIeRAB#",
+      "thumbnail": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/668c1cd2367c355e14a2912e69504dded2905f18aae14448322c88e4d57778fc.jpeg"
+    },
+    {
+      "title": "Hard to Recycle Day – Swissvale",
+      "date": {
+        "start_date": "May 18",
+        "when": "Sat, 1 – 5 PM"
+      },
+      "address": ["Les Getz Memorial Park, 1 Les Getz Dr", "Swissvale, PA"],
+      "link": "https://www.google.com/search?oq=recycling+events+near+me&uule=w+CAIQICIbUGl0dHNidXJnaCxQQSxVbml0ZWQgU3RhdGVz&q=hard+to+recycle+day+%E2%80%93+swissvale,+les+getz+memorial+park,+18+may&sourceid=chrome&ie=UTF-8&si=AKbGX_rO4P19IF_yO85wYpkEaz-W_oZWd5JUOOVnUVftf2aeoWrOScR1J1JSKiU598gcqw6kx6dwBMfh28skWCTlQSTtToW0vmMzLA4_DazvP5EN11lN8LNnzIRwYk4NSI0Z1Dee5_9GNZtdC9GH5374hLdzsJLkfadS71o0N7uGafffe2zbBZ4LxxHm0iAch-4fBeb0E2_3fTgU86cJpP9P4rTqsVlpxu0-rpl0XVMer37oml9--cTnQIhhZZyJ9IGkYiZ13zlk&source=ev.im&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QsdoCegQIdxAB#",
+      "thumbnail": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/668c1cd2367c355ee2f25256110f803a26c86c1d1eb029671d12b67e5a0a86e8.jpeg"
+    },
+    {
+      "title": "Hard To Recycle Collection at The Galleria at...",
+      "date": {
+        "start_date": "May 11",
+        "when": "Sat, 9 AM – 1 PM"
+      },
+      "address": ["Galleria at Pittsburgh Mills, 590 Pittsburgh Mills Blvd", "Tarentum, PA"],
+      "link": "https://www.google.com/search?oq=recycling+events+near+me&uule=w+CAIQICIbUGl0dHNidXJnaCxQQSxVbml0ZWQgU3RhdGVz&q=hard+to+recycle+collection+at+the+galleria+at+pittsburgh+mills+mall,+galleria+at+pittsburgh+mills,+11+may&sourceid=chrome&ie=UTF-8&si=AKbGX_rO4P19IF_yO85wYpkEaz-W_oZWd5JUOOVnUVftf2aeobHgNioQt9s44x6Cbz4c7kpyjvTfkxMG63HKrOFqYmMVrWyktDUnxa6k6vwfBmmJflGmuOoCNe03m1bIkv4REznVeicHo5NubpCEw3VTUlh3-RQRZjPWRYPYP0lqsN-dAu62dRTO8cgUf57BI_M19rOpEPDUOPxdddHSevZRiRLBZB_z4s3HayYLBh9DZFCywo4c565efiDiLoo-reMC5001AfvnmdNJiDyuoncvlias9zNBzbaDxVpUeSV6ra-BnCkjH1Y%3D&source=ev.im&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QsdoCegQIdRAB#",
+      "thumbnail": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/668c1cd2367c355ea51882c167205eb8d271ca4bcdf9a5f8ce7f0b5f45257572.jpeg"
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "Where can I recycle items?",
+      "snippet": "At IPC Shopping Centre, you can bring recyclable items like cardboard, magazines, plastic, metal, etc. and be rewarded cash if the waste weighs a minimum of 1kg!",
+      "title": "Here's a List of Places in Malaysia You Can Recycle or Donate Old ...",
+      "date": "Jun 22, 2020",
+      "link": "https://worldofbuzz.com/heres-a-list-of-places-in-malaysia-you-can-recycle-or-donate-old-items-even-earn-some-extra-cash/#:~:text=At%20IPC%20Shopping%20Centre%2C%20you,weighs%20a%20minimum%20of%201kg!",
+      "displayed_link": "https://worldofbuzz.com › heres-a-list-of-places-in-malay...",
+      "source_logo": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/fbbbcd461f7a969403796d05ff1ffeb01ab4d3edb93b5d0f3744eb831efa9fc6.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdVJXMW9RM0EwTVhkd1dUbHpZbTVrUmtreFVIbEplSEp0V1cxUGFHdGZhWEZYYjJSQk1FMXBNVXRJUms5S1FsODVSR0Y1VGxwWGRsaERUSGxMTTNGelRHaHpUVlE0RWhkUFlYZGtXblZRUWsxaExVbzNUbGxRYmt0aFdEWkJXUm9pUVZCWWFHMDFZVFZrTUY5eGVFNU9ZVUp3Ums4NVJYTmlRWFZ5U1RoclJtaGtVUSIsImZjdiI6IjMiLCJlaSI6Ik9hd2RadVBCTWEtSjdOWVBuS2FYNkFZIiwicWMiOiJDaGh5WldONVkyeHBibWNnWlhabGJuUnpJRzVsWVhJZ2JXVVFBRGdCZlhleVBEOCIsInF1ZXN0aW9uIjoiV2hlcmUgY2FuIEkgcmVjeWNsZSBpdGVtcz8iLCJsayI6IkdoWjNhR1Z5WlNCMGJ5QnlaV041WTJ4bElHbDBaVzF6IiwiYnMiOiJjLU95NUpJS3owZ3RTbFZJVHN4VDhGUW9TazJ1VE01SlZjZ3NTYzB0dHBkWXBtWWtJU1ZXRGxaUWtvOHF5NVhBcGVPUlg2NlFrZ19VbDVKWlhKQmZuS3FRbjZZQU5DY19KMFVoSkV3aE0wOGhJTE9rcERpcHRDZzl3MTdpdUl5UnJwUjJCa1JMSmhZdEpXVWdMUVZ3TFZ4SlhMcjRiVWpMTDFKSUswcE5CVnZsYUNfeHdkZElUMG9IdnhYSWVnb1N1Wnk0Wk1NekVrc1VFa0ZlekVoVk1JYjdzanlfS0FVWUJ2OWlqZVNrWk1yeHFCRmdCQUEiLCJpZCI6ImZjXzMifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdVJXMW9RM0EwTVhkd1dUbHpZbTVrUmtreFVIbEplSEp0V1cxUGFHdGZhWEZYYjJSQk1FMXBNVXRJUms5S1FsODVSR0Y1VGxwWGRsaERUSGxMTTNGelRHaHpUVlE0RWhkUFlYZGtXblZRUWsxaExVbzNUbGxRYmt0aFdEWkJXUm9pUVZCWWFHMDFZVFZrTUY5eGVFNU9ZVUp3Ums4NVJYTmlRWFZ5U1RoclJtaGtVUSIsImZjdiI6IjMiLCJlaSI6Ik9hd2RadVBCTWEtSjdOWVBuS2FYNkFZIiwicWMiOiJDaGh5WldONVkyeHBibWNnWlhabGJuUnpJRzVsWVhJZ2JXVVFBRGdCZlhleVBEOCIsInF1ZXN0aW9uIjoiV2hlcmUgY2FuIEkgcmVjeWNsZSBpdGVtcz8iLCJsayI6IkdoWjNhR1Z5WlNCMGJ5QnlaV041WTJ4bElHbDBaVzF6IiwiYnMiOiJjLU95NUpJS3owZ3RTbFZJVHN4VDhGUW9TazJ1VE01SlZjZ3NTYzB0dHBkWXBtWWtJU1ZXRGxaUWtvOHF5NVhBcGVPUlg2NlFrZ19VbDVKWlhKQmZuS3FRbjZZQU5DY19KMFVoSkV3aE0wOGhJTE9rcERpcHRDZzl3MTdpdUl5UnJwUjJCa1JMSmhZdEpXVWdMUVZ3TFZ4SlhMcjRiVWpMTDFKSUswcE5CVnZsYUNfeHdkZElUMG9IdnhYSWVnb1N1Wnk0Wk1NekVrc1VFa0ZlekVoVk1JYjdzanlfS0FVWUJ2OWlqZVNrWk1yeHFCRmdCQUEiLCJpZCI6ImZjXzMifQ%3D%3D"
+    },
+    {
+      "question": "How do I dispose of an old TV in Pittsburgh?",
+      "title": "Electronic and Household Hazardous Waste Recycling Program",
+      "link": "https://pittsburghpa.gov/dpw/electronic-waste-disposal",
+      "list": [
+        "WHEN: Each Tuesday from 2:00 PM to 6:00 PM and Thursdays 3:00 PM to 7:00 PM.",
+        "WHERE: 3001 Railroad St, Pittsburgh PA 15201.",
+        "Accepted Materials.",
+        "Why must I recycle my Electronic Waste? ... ",
+        "Covered Devices Recycling Act (CDRA) ... ",
+        "Accepted Materials."
+      ],
+      "displayed_link": "https://pittsburghpa.gov › dpw › electronic-waste-disposal",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdVJXMW9RM0EwTVhkd1dUbHpZbTVrUmtreFVIbEplSEp0V1cxUGFHdGZhWEZYYjJSQk1FMXBNVXRJUms5S1FsODVSR0Y1VGxwWGRsaERUSGxMTTNGelRHaHpUVlE0RWhkUFlYZGtXblZRUWsxaExVbzNUbGxRYmt0aFdEWkJXUm9pUVZCWWFHMDFZVFZrTUY5eGVFNU9ZVUp3Ums4NVJYTmlRWFZ5U1RoclJtaGtVUSIsImZjdiI6IjMiLCJlaSI6Ik9hd2RadVBCTWEtSjdOWVBuS2FYNkFZIiwicWMiOiJDaGh5WldONVkyeHBibWNnWlhabGJuUnpJRzVsWVhJZ2JXVVFBRGdCZlhleVBEOCIsInF1ZXN0aW9uIjoiSG93IGRvIEkgZGlzcG9zZSBvZiBhbiBvbGQgVFYgaW4gUGl0dHNidXJnaD8iLCJsayI6IkdpdG9iM2NnWkc4Z2FTQmthWE53YjNObElHOW1JR0Z1SUc5c1pDQjBkaUJwYmlCd2FYUjBjMkoxY21kbyIsImJzIjoiYy1PeTVKSUt6MGd0U2xWSVRzeFQ4RlFvU2sydVRNNUpWY2dzU2MwdHRwZFlwbVlrSVNWV0RsWlFrbzhxeTVYQXBlT1JYNjZRa2dfVWw1SlpYSkJmbktxUW42WUFOQ2NfSjBVaEpFd2hNMDhoSUxPa3BEaXB0Q2c5dzE3aXVJeVJycFIyQmtSTEpoWXRKV1VnTFFWd0xWeEpYTHI0YlVqTEwxSklLMHBOQlZ2bGFDX3h3ZGRJVDBvSHZ4WEllZ29TdVp5NFpNTXpFa3NVRWtGZXpFaFZNSWI3c2p5X0tBVVlCdjlpamVTa1pNcnhxQkZnQkFBIiwiaWQiOiJmY18zIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdVJXMW9RM0EwTVhkd1dUbHpZbTVrUmtreFVIbEplSEp0V1cxUGFHdGZhWEZYYjJSQk1FMXBNVXRJUms5S1FsODVSR0Y1VGxwWGRsaERUSGxMTTNGelRHaHpUVlE0RWhkUFlYZGtXblZRUWsxaExVbzNUbGxRYmt0aFdEWkJXUm9pUVZCWWFHMDFZVFZrTUY5eGVFNU9ZVUp3Ums4NVJYTmlRWFZ5U1RoclJtaGtVUSIsImZjdiI6IjMiLCJlaSI6Ik9hd2RadVBCTWEtSjdOWVBuS2FYNkFZIiwicWMiOiJDaGh5WldONVkyeHBibWNnWlhabGJuUnpJRzVsWVhJZ2JXVVFBRGdCZlhleVBEOCIsInF1ZXN0aW9uIjoiSG93IGRvIEkgZGlzcG9zZSBvZiBhbiBvbGQgVFYgaW4gUGl0dHNidXJnaD8iLCJsayI6IkdpdG9iM2NnWkc4Z2FTQmthWE53YjNObElHOW1JR0Z1SUc5c1pDQjBkaUJwYmlCd2FYUjBjMkoxY21kbyIsImJzIjoiYy1PeTVKSUt6MGd0U2xWSVRzeFQ4RlFvU2sydVRNNUpWY2dzU2MwdHRwZFlwbVlrSVNWV0RsWlFrbzhxeTVYQXBlT1JYNjZRa2dfVWw1SlpYSkJmbktxUW42WUFOQ2NfSjBVaEpFd2hNMDhoSUxPa3BEaXB0Q2c5dzE3aXVJeVJycFIyQmtSTEpoWXRKV1VnTFFWd0xWeEpYTHI0YlVqTEwxSklLMHBOQlZ2bGFDX3h3ZGRJVDBvSHZ4WEllZ29TdVp5NFpNTXpFa3NVRWtGZXpFaFZNSWI3c2p5X0tBVVlCdjlpamVTa1pNcnhxQkZnQkFBIiwiaWQiOiJmY18zIn0%3D"
+    },
+    {
+      "question": "How do I dispose of an old TV for free in PA?",
+      "snippet": "Free Drop-off Locations Devices can be dropped of Monday-Friday 7am-2:30pm at Vintage Tech Electronic Recyclers, 900 Wheeler Way, Suite B, Langhorne, PA 19047. This service is for PA and NJ residents. Details about what is being accepted can be found here.",
+      "title": "Electronic Waste",
+      "link": "http://northmontcorecycle.com/?page_id=604#:~:text=Free%20Drop%2Doff%20Locations&text=Devices%20can%20be%20dropped%20of,accepted%20can%20be%20found%20here.",
+      "displayed_link": "http://northmontcorecycle.com › ...",
+      "source_logo": null,
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdVJXMW9RM0EwTVhkd1dUbHpZbTVrUmtreFVIbEplSEp0V1cxUGFHdGZhWEZYYjJSQk1FMXBNVXRJUms5S1FsODVSR0Y1VGxwWGRsaERUSGxMTTNGelRHaHpUVlE0RWhkUFlYZGtXblZRUWsxaExVbzNUbGxRYmt0aFdEWkJXUm9pUVZCWWFHMDFZVFZrTUY5eGVFNU9ZVUp3Ums4NVJYTmlRWFZ5U1RoclJtaGtVUSIsImZjdiI6IjMiLCJlaSI6Ik9hd2RadVBCTWEtSjdOWVBuS2FYNkFZIiwicWMiOiJDaGh5WldONVkyeHBibWNnWlhabGJuUnpJRzVsWVhJZ2JXVVFBRGdCZlhleVBEOCIsInF1ZXN0aW9uIjoiSG93IGRvIEkgZGlzcG9zZSBvZiBhbiBvbGQgVFYgZm9yIGZyZWUgaW4gUEE/IiwibGsiOiJHaXhvYjNjZ1pHOGdhU0JrYVhOd2IzTmxJRzltSUdGdUlHOXNaQ0IwZGlCbWIzSWdabkpsWlNCcGJpQndZUSIsImJzIjoiYy1PeTVKSUt6MGd0U2xWSVRzeFQ4RlFvU2sydVRNNUpWY2dzU2MwdHRwZFlwbVlrSVNWV0RsWlFrbzhxeTVYQXBlT1JYNjZRa2dfVWw1SlpYSkJmbktxUW42WUFOQ2NfSjBVaEpFd2hNMDhoSUxPa3BEaXB0Q2c5dzE3aXVJeVJycFIyQmtSTEpoWXRKV1VnTFFWd0xWeEpYTHI0YlVqTEwxSklLMHBOQlZ2bGFDX3h3ZGRJVDBvSHZ4WEllZ29TdVp5NFpNTXpFa3NVRWtGZXpFaFZNSWI3c2p5X0tBVVlCdjlpamVTa1pNcnhxQkZnQkFBIiwiaWQiOiJmY18zIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdVJXMW9RM0EwTVhkd1dUbHpZbTVrUmtreFVIbEplSEp0V1cxUGFHdGZhWEZYYjJSQk1FMXBNVXRJUms5S1FsODVSR0Y1VGxwWGRsaERUSGxMTTNGelRHaHpUVlE0RWhkUFlYZGtXblZRUWsxaExVbzNUbGxRYmt0aFdEWkJXUm9pUVZCWWFHMDFZVFZrTUY5eGVFNU9ZVUp3Ums4NVJYTmlRWFZ5U1RoclJtaGtVUSIsImZjdiI6IjMiLCJlaSI6Ik9hd2RadVBCTWEtSjdOWVBuS2FYNkFZIiwicWMiOiJDaGh5WldONVkyeHBibWNnWlhabGJuUnpJRzVsWVhJZ2JXVVFBRGdCZlhleVBEOCIsInF1ZXN0aW9uIjoiSG93IGRvIEkgZGlzcG9zZSBvZiBhbiBvbGQgVFYgZm9yIGZyZWUgaW4gUEE%2FIiwibGsiOiJHaXhvYjNjZ1pHOGdhU0JrYVhOd2IzTmxJRzltSUdGdUlHOXNaQ0IwZGlCbWIzSWdabkpsWlNCcGJpQndZUSIsImJzIjoiYy1PeTVKSUt6MGd0U2xWSVRzeFQ4RlFvU2sydVRNNUpWY2dzU2MwdHRwZFlwbVlrSVNWV0RsWlFrbzhxeTVYQXBlT1JYNjZRa2dfVWw1SlpYSkJmbktxUW42WUFOQ2NfSjBVaEpFd2hNMDhoSUxPa3BEaXB0Q2c5dzE3aXVJeVJycFIyQmtSTEpoWXRKV1VnTFFWd0xWeEpYTHI0YlVqTEwxSklLMHBOQlZ2bGFDX3h3ZGRJVDBvSHZ4WEllZ29TdVp5NFpNTXpFa3NVRWtGZXpFaFZNSWI3c2p5X0tBVVlCdjlpamVTa1pNcnhxQkZnQkFBIiwiaWQiOiJmY18zIn0%3D"
+    },
+    {
+      "question": "What are the 3 recycle words?",
+      "snippet": "Reduce, Reuse, Recycle – these three 'R' words are an important part of sustainable living, as they help to cut down on the amount of waste we have to throw away.",
+      "title": "Reduce, Reuse, Recycle - Knowledge Bank - Solar Schools",
+      "link": "https://solarschools.net/knowledge-bank/sustainability/reduce-reuse-recycle#:~:text=Reduce%2C%20Reuse%2C%20Recycle%20%E2%80%93%20these,we%20have%20to%20throw%20away.",
+      "displayed_link": "https://solarschools.net › knowledge-bank › sustainability",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTG3A6822G65bULM1003o8Mme5MNFHNXqV4Nf8KN-X1A&s",
+      "source_logo": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/fbbbcd461f7a969403796d05ff1ffeb0a5167ac520afe72fe53836a8a9bd7456.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdVJXMW9RM0EwTVhkd1dUbHpZbTVrUmtreFVIbEplSEp0V1cxUGFHdGZhWEZYYjJSQk1FMXBNVXRJUms5S1FsODVSR0Y1VGxwWGRsaERUSGxMTTNGelRHaHpUVlE0RWhkUFlYZGtXblZRUWsxaExVbzNUbGxRYmt0aFdEWkJXUm9pUVZCWWFHMDFZVFZrTUY5eGVFNU9ZVUp3Ums4NVJYTmlRWFZ5U1RoclJtaGtVUSIsImZjdiI6IjMiLCJlaSI6Ik9hd2RadVBCTWEtSjdOWVBuS2FYNkFZIiwicWMiOiJDaGh5WldONVkyeHBibWNnWlhabGJuUnpJRzVsWVhJZ2JXVVFBRGdCZlhleVBEOCIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDMgcmVjeWNsZSB3b3Jkcz8iLCJsayI6IkdoeDNhR0YwSUdGeVpTQjBhR1VnTXlCeVpXTjVZMnhsSUhkdmNtUnoiLCJicyI6ImMtT3k1SklLejBndFNsVklUc3hUOEZRb1NrMnVUTTVKVmNnc1NjMHR0cGRZcG1Za0lTVldEbFpRa284cXk1WEFwZU9SWDY2UWtnX1VsNUpaWEpCZm5LcVFuNllBTkNjX0owVWhKRXdoTTA4aElMT2twRGlwdENnOXcxN2l1SXlScnBSMkJrUkxKaFl0SldVZ0xRVndMVnhKWExyNGJVakxMMUpJSzBwTkJWdmxhQ194d2RkSVQwb0h2eFhJZWdvU3VaeTRaTU16RWtzVUVrRmV6RWhWTUliN3NqeV9LQVVZQnY5aWplU2taTXJ4cUJGZ0JBQSIsImlkIjoiZmNfMyJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdVJXMW9RM0EwTVhkd1dUbHpZbTVrUmtreFVIbEplSEp0V1cxUGFHdGZhWEZYYjJSQk1FMXBNVXRJUms5S1FsODVSR0Y1VGxwWGRsaERUSGxMTTNGelRHaHpUVlE0RWhkUFlYZGtXblZRUWsxaExVbzNUbGxRYmt0aFdEWkJXUm9pUVZCWWFHMDFZVFZrTUY5eGVFNU9ZVUp3Ums4NVJYTmlRWFZ5U1RoclJtaGtVUSIsImZjdiI6IjMiLCJlaSI6Ik9hd2RadVBCTWEtSjdOWVBuS2FYNkFZIiwicWMiOiJDaGh5WldONVkyeHBibWNnWlhabGJuUnpJRzVsWVhJZ2JXVVFBRGdCZlhleVBEOCIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDMgcmVjeWNsZSB3b3Jkcz8iLCJsayI6IkdoeDNhR0YwSUdGeVpTQjBhR1VnTXlCeVpXTjVZMnhsSUhkdmNtUnoiLCJicyI6ImMtT3k1SklLejBndFNsVklUc3hUOEZRb1NrMnVUTTVKVmNnc1NjMHR0cGRZcG1Za0lTVldEbFpRa284cXk1WEFwZU9SWDY2UWtnX1VsNUpaWEpCZm5LcVFuNllBTkNjX0owVWhKRXdoTTA4aElMT2twRGlwdENnOXcxN2l1SXlScnBSMkJrUkxKaFl0SldVZ0xRVndMVnhKWExyNGJVakxMMUpJSzBwTkJWdmxhQ194d2RkSVQwb0h2eFhJZWdvU3VaeTRaTU16RWtzVUVrRmV6RWhWTUliN3NqeV9LQVVZQnY5aWplU2taTXJ4cUJGZ0JBQSIsImlkIjoiZmNfMyJ9"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "City of Pittsburgh E-waste Collection - PRC",
+      "link": "https://prc.org/city-of-pittsburgh-e-waste-collection/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://prc.org/city-of-pittsburgh-e-waste-collection/&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoECBYQAQ",
+      "displayed_link": "https://prc.org › city-of-pittsburgh-e-waste-collection",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c4554e01af6be338c2cf77ae28f172f5d2c.png",
+      "snippet": "E-WASTE RECYCLING FOR CITY OF PITTSBURGH RESIDENTS. WHEN: Weekly March through October / Tuesdays 2 – 6 p.m. & Thursdays 3 – 7 p.m.. * No collection on May 23.",
+      "snippet_highlighted_words": ["RECYCLING"],
+      "source": "Pennsylvania Resources Council"
+    },
+    {
+      "position": 2,
+      "title": "Electronic and Household Hazardous Waste Recycling ...",
+      "link": "https://pittsburghpa.gov/dpw/electronic-waste-disposal",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://pittsburghpa.gov/dpw/electronic-waste-disposal&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoECBgQAQ",
+      "displayed_link": "https://pittsburghpa.gov › dpw › electronic-waste-disposal",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c45617d272883f63d3756612101007578b8.png",
+      "snippet": "Note: PRC will not be holding e-waste collections on March 14th or May 23rd. WHERE: 3001 Railroad St, Pittsburgh PA 15201. Accepted Materials. All Computer ...",
+      "source": "City of Pittsburgh (.gov)"
+    },
+    {
+      "position": 3,
+      "title": "City of Pittsburgh Household Hazardous Waste Collection- ...",
+      "link": "https://www.eventbrite.com/e/city-of-pittsburgh-household-hazardous-waste-collection-39-tickets-789169105037",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.eventbrite.com/e/city-of-pittsburgh-household-hazardous-waste-collection-39-tickets-789169105037&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoECBcQAQ",
+      "displayed_link": "https://www.eventbrite.com › city-of-pittsburgh-househ...",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c45c5f069d83f5e13abd8f7cd3031029512.png",
+      "snippet": "Household Chemical Collection Event in Beaver County at Bradys Run Park. Sat, Oct 12, 8:45 AM. Bradys Run Park Recycling Center • Beaver, PA.",
+      "snippet_highlighted_words": ["Recycling"],
+      "source": "Eventbrite"
+    },
+    {
+      "position": 4,
+      "title": "Hard To Recycle Collection Event At Galleria of Pittsburgh ...",
+      "link": "https://www.eventbrite.com/e/hard-to-recycle-collection-event-at-galleria-of-pittsburgh-mills-tickets-551528044227",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.eventbrite.com/e/hard-to-recycle-collection-event-at-galleria-of-pittsburgh-mills-tickets-551528044227&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoECH8QAQ",
+      "displayed_link": "https://www.eventbrite.com › hard-to-recycle-collection...",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c45577b6fd405822defcad9a1f48f83ec35.png",
+      "snippet": "Hard To Recycle Collection at The Galleria at Pittsburgh Mills Mall. Sat, May 11 • 9:00 AM. Galleria at Pittsburgh Mills. Free. Pennsylvania Resources Council.",
+      "snippet_highlighted_words": ["Recycle"],
+      "source": "Eventbrite"
+    },
+    {
+      "position": 5,
+      "title": "Hard to Recycle Items - PRC",
+      "link": "https://prc.org/workshops-collection-events/collection-events/hard-to-recycle-items/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://prc.org/workshops-collection-events/collection-events/hard-to-recycle-items/&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoECHwQAQ",
+      "displayed_link": "https://prc.org › collection-events › hard-to-recycle-items",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c4549de7665263eb7e0f42ac2a4520f643b.png",
+      "snippet": "2024 Hard to Recycle Collection Events. April 20, KARNS CITY HIGH SCHOOL, Butler County REGISTER NOW; May 11, GALLERIA AT PITTSBURGH MILLS, Allegheny County ...",
+      "snippet_highlighted_words": ["Recycle", "Events"],
+      "source": "Pennsylvania Resources Council"
+    },
+    {
+      "position": 6,
+      "title": "Recycling Drop-Off Locations | pittsburghpa.gov",
+      "link": "https://pittsburghpa.gov/dpw/drop-off",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://pittsburghpa.gov/dpw/drop-off&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoFCIEBEAE",
+      "displayed_link": "https://pittsburghpa.gov › dpw › drop-off",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c45ef3ca8b1e8cd3187c3da736a48875b84.png",
+      "snippet": "Recycling Drop-off Locations · Place items loosely in the containers (dumpsters/roll-offs). · Flatten ALL cardboard before placing it into the recycling dumpster.",
+      "snippet_highlighted_words": ["Recycling", "recycling"],
+      "source": "City of Pittsburgh (.gov)"
+    },
+    {
+      "position": 7,
+      "title": "Shredding, Electronic Equipment & Yard Waste",
+      "link": "https://mtlebanon.org/residents/public-works/shredding-electronic-equipment-yard-waste/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://mtlebanon.org/residents/public-works/shredding-electronic-equipment-yard-waste/&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoFCIABEAE",
+      "displayed_link": "https://mtlebanon.org › Residents › Public Works",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c45d67600d1cd8b20e1d8dab122431c6a8e.png",
+      "snippet": "You can register for yard waste collection events on myLebo or call 412-343-3403, between Monday and no later than 4:30 p.m. on the Thursday before the pickup.",
+      "snippet_highlighted_words": ["events"],
+      "source": "Mt. Lebanon, PA"
+    },
+    {
+      "position": 8,
+      "title": "Group Offers New E-Waste Recycling Events In The ...",
+      "link": "https://www.wesa.fm/environment-energy/2021-04-21/group-offers-new-e-waste-recycling-events-in-the-pittsburgh-area",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.wesa.fm/environment-energy/2021-04-21/group-offers-new-e-waste-recycling-events-in-the-pittsburgh-area&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoECH0QAQ",
+      "displayed_link": "https://www.wesa.fm › environment-energy › group-of...",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c456d6f72dfb6357b138b908d9a1cf821bc.png",
+      "date": "Apr 21, 2021",
+      "snippet": "Collection dates are May 4, 6, 11, and 13 at Michael Brothers, 408 Hoffman Road, in Reserve Township; and May 18, 20, 25, and 27 at Michael ...",
+      "source": "90.5 WESA"
+    },
+    {
+      "position": 9,
+      "title": "Electronics Recycling - Hopewell Township",
+      "link": "https://hopewelltwp.com/events/electronics-recycling/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://hopewelltwp.com/events/electronics-recycling/&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0QFnoECH4QAQ",
+      "displayed_link": "https://hopewelltwp.com › Local Events",
+      "favicon": "https://serpapi.com/searches/661dac390574f5cd2c618a7d/images/b56e367c0d6adfc04dc34344d5820c45fc69f737e07dbe8c4e1584ec341efd7c.jpeg",
+      "snippet": "Electronics Recycling · Date. April 13, 2024 · Time. 7:30 am - 11:00 am · Hopewell Township Road Department. 1927 Sohn Road.",
+      "snippet_highlighted_words": ["Recycling"],
+      "source": "hopewelltwp.com"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "recycling events near Monroeville, PA",
+      "link": "https://www.google.com/search?sca_esv=cae8840f93f20457&q=recycling+events+near+monroeville,+pa&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0Q1QJ6BQiRARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=recycling+events+near+monroeville%2C+pa"
+    },
+    {
+      "block_position": 1,
+      "query": "Recycling events near me this weekend",
+      "link": "https://www.google.com/search?sca_esv=cae8840f93f20457&q=Recycling+events+near+me+this+weekend&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0Q1QJ6BQiUARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=Recycling+events+near+me+this+weekend"
+    },
+    {
+      "block_position": 1,
+      "query": "Recycling events near me today",
+      "link": "https://www.google.com/search?sca_esv=cae8840f93f20457&q=Recycling+events+near+me+today&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0Q1QJ6BQiWARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=Recycling+events+near+me+today"
+    },
+    {
+      "block_position": 1,
+      "query": "free recycling events near me",
+      "link": "https://www.google.com/search?sca_esv=cae8840f93f20457&q=Free+recycling+events+near+me&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0Q1QJ6BQiVARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=Free+recycling+events+near+me"
+    },
+    {
+      "block_position": 1,
+      "query": "free electronic recycling event near me",
+      "link": "https://www.google.com/search?sca_esv=cae8840f93f20457&q=Free+electronic+Recycling+event+near+me&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0Q1QJ6BQiTARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=Free+electronic+Recycling+event+near+me"
+    },
+    {
+      "block_position": 1,
+      "query": "Electronics recycling events near me",
+      "link": "https://www.google.com/search?sca_esv=cae8840f93f20457&q=Electronics+recycling+events+near+me&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0Q1QJ6BQiSARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=Electronics+recycling+events+near+me"
+    },
+    {
+      "block_position": 1,
+      "query": "free tv recycling near me",
+      "link": "https://www.google.com/search?sca_esv=cae8840f93f20457&q=Free+TV+recycling+near+me&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0Q1QJ6BQiQARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=Free+TV+recycling+near+me"
+    },
+    {
+      "block_position": 1,
+      "query": "free paper recycling bins near me",
+      "link": "https://www.google.com/search?sca_esv=cae8840f93f20457&q=Free+paper+recycling+bins+near+me&sa=X&ved=2ahUKEwijwtSppMWFAxWvBNsEHRzTBW0Q1QJ6BQiMARAB",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=Free+paper+recycling+bins+near+me"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=recycling+events+near+me&oq=recycling+events+near+me&start=10&sourceid=chrome&ie=UTF-8",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=recycling+events+near+me&oq=recycling+events+near+me&start=10&sourceid=chrome&ie=UTF-8",
+      "3": "https://www.google.com/search?q=recycling+events+near+me&oq=recycling+events+near+me&start=20&sourceid=chrome&ie=UTF-8",
+      "4": "https://www.google.com/search?q=recycling+events+near+me&oq=recycling+events+near+me&start=30&sourceid=chrome&ie=UTF-8",
+      "5": "https://www.google.com/search?q=recycling+events+near+me&oq=recycling+events+near+me&start=40&sourceid=chrome&ie=UTF-8"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=recycling+events+near+me&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=recycling+events+near+me&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=recycling+events+near+me&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=recycling+events+near+me&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=recycling+events+near+me&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Pittsburgh%2C+PA&q=recycling+events+near+me&start=40"
+    }
+  }
+}

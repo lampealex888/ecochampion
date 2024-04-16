@@ -5,16 +5,11 @@ import Footer from "@/app/components/Footer";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
+import Map from "@/app/ecolocator/Map";
+import Events from "@/app/ecolocator/Events";
 
 export default async function Component() {
   const session = await getServerSession(authOptions);
-
-  // Dummy data for facilities list
-  const facilities = [
-    { name: "Facility 1", address: "123 Main St" },
-    { name: "Facility 2", address: "456 Elm St" },
-    { name: "Facility 3", address: "789 Oak St" },
-  ];
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -26,7 +21,7 @@ export default async function Component() {
           </Button>
         </Link>
         <h1 className="text-lg font-semibold">
-          Find E-Waste and Recycling Facilities Near You!
+          Find E-Waste Dropoff and Recycling Facilities Near You!
         </h1>
         {session ? (
           <div className="ml-auto">
@@ -38,28 +33,12 @@ export default async function Component() {
           </Button>
         )}
       </header>
-      <main className="flex-1 flex p-4">
+      <main>
         {/* Google Maps Embed */}
-        <div className="flex-1 mr-4">
-          <iframe
-            width="100%"
-            height="450"
-            loading="lazy"
-            allowFullScreen
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAYbe366i8LADv4d586uJsAdSjWrLiEczY&q=Recycling+Facilities"
-          ></iframe>
-        </div>
-        {/* Facilities List */}
-        <div className="w-1/3">
-          <h2 className="text-lg font-semibold mb-2">Facilities Nearby:</h2>
-          <ul>
-            {facilities.map((facility, index) => (
-              <li key={index} className="mb-2">
-                <p className="font-semibold">{facility.name}</p>
-                <p>{facility.address}</p>
-              </li>
-            ))}
-          </ul>
+        <Map />
+        {/* Events List */}
+        <div className="p-4">
+          <Events />
         </div>
       </main>
       <Footer />
