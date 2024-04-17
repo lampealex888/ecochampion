@@ -1,21 +1,22 @@
-import Link from "next/link";
-import { SVGProps } from "react";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/utils/auth";
-import LogoutButton from "@/app/components/LogoutButton";
-import { Button } from "@/components/ui/button";
-import ThemeSwitch from "@/app/components/ThemeSwitch";
+import { useState } from 'react';
+import Link from 'next/link';
+import { SVGProps } from 'react';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/app/utils/auth';
+import LogoutButton from '@/app/components/LogoutButton';
+import { Button } from '@/components/ui/button';
+import ThemeSwitch from '@/app/components/ThemeSwitch';
+import HamburgerMenu from '@/app/components/HamburgerMenu';
 
 export default async function MainNav() {
   const session = await getServerSession(authOptions);
 
   return (
-    <header className="px-4 lg:px-6 h-14 flex items-center">
-      <Link className="flex items-center justify-center" href="/">
-        <MountainIcon className="h-6 w-6" />
-        <span className="sr-only">Acme Inc</span>
-      </Link>
-      <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
+    <header className="px-4 lg:px-6 h-14 flex items-center justify-start">
+      <div className="flex-grow-0 md:hidden">
+        <HamburgerMenu />
+      </div>
+      <nav className="ml-auto flex gap-4 sm:gap-6 items-center hidden md:flex">
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
           href="/ecosort"
@@ -46,36 +47,21 @@ export default async function MainNav() {
         >
           EcoDashboard
         </Link>
-        <ThemeSwitch/>
-        {session ? (
-          <LogoutButton />
-        ) : (
-          <Button asChild>
-            <Link href="/auth">Login</Link>
-          </Button>
-        )}
       </nav>
+      <div className="flex-grow flex justify-end">
+        <div style={{marginLeft:"20px", paddingTop:"15px"}}>
+          <ThemeSwitch />
+        </div>
+        <div style={{marginLeft:"20px"}}>
+          {session ? (
+            <LogoutButton />
+          ) : (
+            <Button asChild>
+              <Link href="/auth">Login</Link>
+            </Button>
+          )}
+        </div>
+      </div>
     </header>
-  );
-}
-
-function MountainIcon(
-  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
-) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
   );
 }
