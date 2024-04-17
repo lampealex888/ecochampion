@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import { SVGProps } from "react";
@@ -8,13 +8,13 @@ import { SVGProps } from "react";
 export default function DonationPage() {
   return (
     <main>
-      <Navbar />
+      <Header text="Support Environmental Charities"/>
       <section className="bg-gray-50/90">
         <div className="py-12 lg:py-20">
           <div className="container grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
             <div className="space-y-3">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Support Environmental Charities
+                
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Your donation can help protect our planet for future
