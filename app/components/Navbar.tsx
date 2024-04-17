@@ -4,6 +4,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
 import LogoutButton from "@/app/components/LogoutButton";
 import { Button } from "@/components/ui/button";
+import ThemeSwitch from "@/app/components/ThemeSwitch";
 
 export default async function MainNav() {
   const session = await getServerSession(authOptions);
@@ -45,6 +46,7 @@ export default async function MainNav() {
         >
           EcoDashboard
         </Link>
+        <ThemeSwitch/>
         {session ? (
           <LogoutButton />
         ) : (
