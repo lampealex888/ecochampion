@@ -103,22 +103,24 @@ export default function Home() {
               {articles.map((article) => (
                 <div
                   key={article.slug}
-                  className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+                  className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow flex flex-col justify-between"
                 >
-                  <img
-                    alt={article.slug}
-                    className="aspect-[1.6] object-cover"
-                    height="250"
-                    src={article.image}
-                    width="400"
-                  />
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold leading-none">
-                      {article.title}
-                    </h3>
-                    <p className="text-sm text-gray-500 line-clamp-3 dark:text-gray-400">
-                      {article.author} - {article.date}
-                    </p>
+                  <div>
+                    <img
+                      alt={article.slug}
+                      className="aspect-[1.6] object-cover"
+                      height="250"
+                      src={article.image}
+                      width="400"
+                    />
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold leading-none">
+                        {article.title}
+                      </h3>
+                      <p className="text-sm text-gray-500 line-clamp-3 dark:text-gray-400">
+                        {article.author} - {article.date}
+                      </p>
+                    </div>
                   </div>
                   <div className="p-6 flex items-end">
                     <Link href={`/ecoarticles/${article.slug}`}>
