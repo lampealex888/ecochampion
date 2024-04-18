@@ -5,11 +5,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useModel } from "@/app/utils/ModelContext";
 
-type UploadedImage = {
-  name: string;
-  url: string;
-  predictions: ClassPrediction[];
-};
+
 type ClassPrediction = {
   className: string;
   probability: number | string;
@@ -34,6 +30,36 @@ function formatLabel(label: string) {
   });
 
   return formattedWords.join(" ");
+}
+
+// Function to get the recycling information based on the className
+function getRecyclingInfo(className: string) {
+  switch (className) {
+    case "cardboard":
+      return "Flatten the cardboard and place it in the recycling bin.";
+    case "battery":
+      return "Dispose of batteries at a designated battery recycling point.";
+    case "biological":
+      return "Compost the biological waste or dispose of it in the organic waste bin.";
+    case "brown-glass":
+    case "green-glass":
+    case "white-glass":
+      return "Rinse the glass container and place it in the glass recycling bin.";
+    case "clothes":
+      return "Donate wearable clothes to a local charity or thrift store. For unwearable clothes, dispose of them in a textile recycling bin.";
+    case "metal":
+      return "Rinse metal containers and place them in the metal recycling bin.";
+    case "paper":
+      return "Place paper in the paper recycling bin. Shredded paper should be bagged before recycling.";
+    case "plastic":
+      return "Check the plastic item for a recycling symbol. If recyclable, rinse and place it in the plastic recycling bin.";
+    case "shoes":
+      return "Donate wearable shoes to a local charity or thrift store. For unwearable shoes, dispose of them in the trash.";
+    case "trash":
+      return "Dispose of the item in the regular trash bin.";
+    default:
+      return "No specific recycling information available for this item.";
+  }
 }
 
 export default function Camera() {
@@ -138,9 +164,10 @@ export default function Camera() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={imageUrl} alt="Screenshot" />
           </div>
-          <p className="flex text-7xl font-bold justify-center">
+          <p className="flex text-3xl font-bold justify-center">
             {formatLabel(classPrediction || "")}
           </p>
+          <p className="text-xl">{getRecyclingInfo(classPrediction || "")}</p>
           <Button size="lg" onClick={retake}>
             Retake
           </Button>

@@ -47,12 +47,6 @@ export default async function MainNav() {
         >
           EcoDashboard
         </Link>
-        <Link
-          className="text-sm font-medium hover:underline underline-offset-4"
-          href="/ecofeedback"
-        >
-          EcoFeedback
-        </Link>
       </nav>
       <div className="flex-grow flex justify-end">
         <div style={{marginLeft:"20px", paddingTop:"12px"}}>

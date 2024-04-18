@@ -1,13 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { SVGProps } from "react";
-import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/utils/auth";
-import LogoutButton from "@/app/components/LogoutButton";
 import Camera from "./Camera";
-import Image from "next/image";
 
 export default async function Component() {
   const session = await getServerSession(authOptions);
