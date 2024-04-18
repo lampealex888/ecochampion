@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import { SVGProps } from "react";
@@ -8,13 +8,13 @@ import { SVGProps } from "react";
 export default function DonationPage() {
   return (
     <main>
-      <Navbar />
+      <Header text="Support Environmental Charities"/>
       <section className="bg-gray-50/90">
         <div className="py-12 lg:py-20">
           <div className="container grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
             <div className="space-y-3">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                Support Environmental Charities
+                
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Your donation can help protect our planet for future
@@ -36,7 +36,7 @@ export default function DonationPage() {
             </p>
             <Link
               className="inline-flex items-center underline text-blue-600 hover:text-blue-600/90 dark:hover:text-blue-300/90"
-              href="#"
+              href="https://www.catf.us/"
             >
               Learn more
               <ChevronRightIcon className="w-4 h-4 ml-1 inline-block" />
@@ -52,7 +52,7 @@ export default function DonationPage() {
             </p>
             <Link
               className="inline-flex items-center underline text-blue-600 hover:text-blue-600/90 dark:hover:text-blue-300/90"
-              href="#"
+              href="https://theoceancleanup.com/"
             >
               Learn more
               <ChevronRightIcon className="w-4 h-4 ml-1 inline-block" />
@@ -69,18 +69,15 @@ export default function DonationPage() {
                 src="/placeholder.svg"
                 width="150"
               />
-              <h3 className="text-xl font-bold">Clean Air Task Force</h3>
+              <h3 className="text-xl font-bold">Coral Reef Alliance</h3>
               <p className="text-sm text-center description-3-lines">
-                The Clean Air Task Force is a nonprofit environmental
-                organization working to help safeguard against the worst impacts
-                of climate change by finding and implementing solutions that
-                reduce air pollution and heat-trapping emissions.
+              This charity works to restore and protect coral reef habitats throughout the world, as these are spectacular and important habitats both for marine life and for millions of humans. The organization takes a scientific approach to tackling challenges like ocean warming and bleaching, translating data into effective interventions and policies.
               </p>
             </CardContent>
             <CardFooter className="flex w-full">
               <Link
                 className="w-full inline-flex items-center justify-center h-10 rounded-b-md bg-gray-100 hover:bg-gray-100/90 dark:bg-gray-800 dark:hover:bg-gray-800/90"
-                href="#"
+                href="https://coral.org/en/"
               >
                 Donate
               </Link>
@@ -95,18 +92,15 @@ export default function DonationPage() {
                 src="/placeholder.svg"
                 width="150"
               />
-              <h3 className="text-xl font-bold">The Ocean Cleanup</h3>
+              <h3 className="text-xl font-bold">Appalachian Trail Conservancy</h3>
               <p className="text-sm text-center description-3-lines">
-                The Ocean Cleanup is a non-profit organization developing
-                advanced technologies to rid the world’s oceans of plastic. They
-                aim to extract, prevent, and intercept plastic pollution by
-                initiating the largest cleanup in history.
+              The Appalachian Trail Conservancy (ATC) leads the effort to protect, maintain and celebrate the A.T. They are part of a unique cooperative-management system, working with numbers of local, state and federal partners to ensure greater protections for the Trail.
               </p>
             </CardContent>
             <CardFooter className="flex w-full">
               <Link
                 className="w-full inline-flex items-center justify-center h-10 rounded-b-md bg-gray-100 hover:bg-gray-100/90 dark:bg-gray-800 dark:hover:bg-gray-800/90"
-                href="#"
+                href="https://appalachiantrail.org/"
               >
                 Donate
               </Link>

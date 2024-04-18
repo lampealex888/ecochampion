@@ -19,17 +19,16 @@ import {
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export default function EcoExchange() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
+      <Header text="Exchange Freebies With Others"/>
       <main className="flex-1">
         <section className="container flex flex-col gap-4 p-4 mx-auto md:gap-8 md:p-6">
           <div className="grid gap-4">
-            <h1 className="text-3xl font-bold">Welcome to FreeCycle</h1>
             <p className="text-gray-500 dark:text-gray-400">
               A platform for exchanging freebies. Post items you no longer need
               and give them away to others who might find them useful.

@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/toaster";
 import ModelProvider from "@/app/utils/ModelContext";
+import { Providers } from './providers'
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -30,10 +31,12 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <Providers>
         <ModelProvider>
           {children}
           <Toaster />
         </ModelProvider>
+        </Providers>
       </body>
     </html>
   );
