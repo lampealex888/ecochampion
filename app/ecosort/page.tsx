@@ -16,7 +16,7 @@ export default async function Component() {
     <div className="flex flex-col min-h-screen">
       <Header text="Capture and Classify Recyclable Materials"/>
       <main className="flex-1 flex flex-col items-center justify-center p-4">
-        <h3 style={{textAlign:'center', marginBottom:'25px'}}> Use the Material Classifier below to help you decide an item's recycling category with the power of machine learning!</h3>
+        <h3 style={{textAlign:"center", marginBottom:"25px"}}> Use the Material Classifier below to help you decide an item's recycling category with the power of machine learning!</h3>
         <Camera />
       </main>
       {/* <div className="grid w-full gap-4 p-4">
