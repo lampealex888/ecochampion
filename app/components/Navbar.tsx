@@ -46,6 +46,12 @@ export default async function MainNav() {
         >
           EcoDashboard
         </Link>
+        <Link
+          className="text-sm font-medium hover:underline underline-offset-4"
+          href="/ecofeedback"
+        >
+          EcoFeedback
+        </Link>
         <ThemeSwitch/>
         {session ? (
           <LogoutButton />
