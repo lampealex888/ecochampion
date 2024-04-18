@@ -13,7 +13,17 @@ import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import { JSX, SVGProps } from "react";
 
+import React, { useEffect } from 'react';
+//import { exportEmailsToMailchimp } from '@/app/utils/mailchimp';
+
+
 export default function Home() {
+
+  // useEffect(() => {
+  //   //export user emails to Mailchimp when the component mounts
+  //   exportEmailsToMailchimp();
+  // }, []);
+
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <Navbar />
