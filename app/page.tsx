@@ -25,7 +25,7 @@ export default function Home() {
                 Welcome to EcoChampion!
               </h1>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Making the world a greener place, one app at a time.
+                Building green habits and greener thumbs
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
