@@ -24,20 +24,15 @@ export default async function Header({ text }: HeaderProps) {
         <h1 className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold">
           { text }
         </h1>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
+        <nav className="ml-auto flex gap-4 sm:gap-6">
           <div style={{paddingTop:"12px"}}>
-          <ThemeSwitch />
+            <ThemeSwitch />
           </div>
-          
-        {session ? (
-          <div className="ml-auto">
-            <LogoutButton />
-          </div>
-        ) : (
-          <Button asChild className="ml-auto">
-            <Link href="/auth">Login</Link>
-          </Button>
-        )}
+          {session ? ( <div> <LogoutButton /> </div> ) : (
+            <Button asChild>
+              <Link href="/auth">Login</Link>
+            </Button>
+          )}
         </nav>
       </header>
   );

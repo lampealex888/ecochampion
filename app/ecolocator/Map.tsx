@@ -66,8 +66,8 @@ export default function Map() {
 
   return (
     <div style={{ display: 'flex' }}>
-      <div className="border-8" style={{ flex: 6 }}>
-        <div style={{width:'100%', height: '450px'}} ref={mapRef}></div>
+      <div style={{ flex: 6, padding:'10px' }}>
+        <div className="bg-blue-100 dark:bg-gray-800 border-blue-100 dark:border-gray-800 border-8" style={{width:'100%', height: '450px'}} ref={mapRef}></div>
       </div>
       <div className="hidden md:block flex-4" style={{flex:4, padding:'20px'}}>
         <h2 className="text-lg font-semibold mb-2">Facilities Nearby:</h2>

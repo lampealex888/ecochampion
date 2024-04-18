@@ -40,16 +40,16 @@ export default function Events() {
       <ul>
         {events.map((event, index) => (
           <li key={index}>
-            <div className="bg-blue-100 dark:bg-gray-800 p-4 my-2 rounded flex items-start">
-              <div>
-                <h2> <a href={event.link} className="text-blue-500 underline dark:text-blue-400"> {event.title} </a></h2>
-                <p className="dark:text-gray-200">Start Date: {event.date.start_date}</p>
-                <p className="dark:text-gray-200">When: {event.date.when}</p>
-                <p className="dark:text-gray-200">Address: {event.address.join(', ')}</p>
-              </div>
-              <img className="ml-4" src={event.thumbnail} alt={event.title} />
+          <div className="bg-blue-100 dark:bg-gray-800 p-4 my-2 rounded flex items-start justify-between">
+            <div>
+              <h2> <a href={event.link} className="text-blue-500 underline dark:text-blue-400"> {event.title} </a></h2>
+              <p className="dark:text-gray-200">Start Date: {event.date.start_date}</p>
+              <p className="dark:text-gray-200">When: {event.date.when}</p>
+              <p className="dark:text-gray-200">Address: {event.address.join(', ')}</p>
             </div>
-          </li>
+            <img className="ml-4" src={event.thumbnail} alt={event.title} />
+          </div>
+        </li>
         ))}
       </ul>
     </div>
