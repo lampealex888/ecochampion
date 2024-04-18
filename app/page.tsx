@@ -161,7 +161,7 @@ export default function Home() {
             <form className="mx-auto max-w-[400px] grid gap-4">
               <Link href="/ecofeedback">
                 <Button className="w-full" type="submit">
-                  Contact Us
+                  Contact Us {" "}
                 </Button>
               </Link>
             </form>
