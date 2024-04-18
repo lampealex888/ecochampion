@@ -42,6 +42,12 @@ export default async function MainNav() {
         </Link>
         <Link
           className="text-sm font-medium hover:underline underline-offset-4"
+          href="/ecoarticles"
+        >
+          EcoArticles
+        </Link>
+        <Link
+          className="text-sm font-medium hover:underline underline-offset-4"
           href="/ecodashboard"
         >
           EcoDashboard
