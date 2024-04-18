@@ -25,6 +25,10 @@ export default async function Header({ text }: HeaderProps) {
           { text }
         </h1>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
+          <div style={{paddingTop:"12px"}}>
+          <ThemeSwitch />
+          </div>
+          
         {session ? (
           <div className="ml-auto">
             <LogoutButton />
