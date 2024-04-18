@@ -21,7 +21,7 @@ export default async function Header({ text }: HeaderProps) {
             <span className="sr-only">Go back</span>
           </Button>
         </Link>
-        <h1 className="text-lg font-semibold">
+        <h1 className="text-xs sm:text-sm md:text-md lg:text-lg font-semibold">
           { text }
         </h1>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">

@@ -66,11 +66,10 @@ export default function Map() {
 
   return (
     <div style={{ display: 'flex' }}>
-      <div style={{ flex: 6 }}>
-        {/* <script async src={bootstrapSrc}></script> */}
+      <div className="border-8" style={{ flex: 6 }}>
         <div style={{width:'100%', height: '450px'}} ref={mapRef}></div>
       </div>
-      <div style={{ flex: 4 }}>
+      <div className="hidden md:block flex-4" style={{flex:4, padding:'20px'}}>
         <h2 className="text-lg font-semibold mb-2">Facilities Nearby:</h2>
         <ul>
           {places.map((place, index) => (

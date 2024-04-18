@@ -49,7 +49,7 @@ export default async function MainNav() {
         </Link>
       </nav>
       <div className="flex-grow flex justify-end">
-        <div style={{marginLeft:"20px", paddingTop:"15px"}}>
+        <div style={{marginLeft:"20px", paddingTop:"12px"}}>
           <ThemeSwitch />
         </div>
         <div style={{marginLeft:"20px"}}>
