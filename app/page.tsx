@@ -97,8 +97,17 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-50 dark:bg-gray-950 py-12 md:py-24 lg:py-32">
+        <section className="bg-gray-50 dark:bg-gray-950 py-12 md:py-24 lg:py-32 border-t">
           <div className="container px-4 md:px-6">
+            <div className="space-y-3 text-center mb-10">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                Educational Articles
+              </h2>
+              <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                Please enjoy our collection of educational articles on
+                recycling, sustainability, and environmental conservation.
+              </p>
+            </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {articles.map((article) => (
                 <div
@@ -138,7 +147,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-32 border-t">
           <div className="container grid items-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
