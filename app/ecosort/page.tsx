@@ -16,6 +16,7 @@ export default async function Component() {
     <div className="flex flex-col min-h-screen">
       <Header text="Capture and Classify Recyclable Materials"/>
       <main className="flex-1 flex flex-col items-center justify-center p-4">
+        <h3 style={{textAlign:"center", marginBottom:"25px"}}> Use the Material Classifier below to help you decide the recycling category of anything with the power of machine learning!</h3>
         <Camera />
       </main>
       {/* <div className="grid w-full gap-4 p-4">
@@ -69,26 +70,5 @@ export default async function Component() {
       </div> */}
       <Footer />
     </div>
-  );
-}
-
-function ChevronLeftIcon(
-  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
-) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m15 18-6-6 6-6" />
-    </svg>
   );
 }
