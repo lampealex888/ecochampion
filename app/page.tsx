@@ -33,50 +33,7 @@ export default function Home() {
           </div>
         </section>
         <section className="bg-gray-50 dark:bg-gray-950 py-12 md:py-24 lg:py-32">
-          <div className="container py-6 space-y-6 md:space-y-0 md:grid md:grid-cols-[250px,1fr] lg:grid-cols-[300px,1fr] items-start gap-6 px-4 md:px-6">
-            <nav className="space-y-2 text-sm">
-              <Link
-                className="font-medium text-gray-900 transition-colors hover:text-gray-900/80 dark:text-gray-50 dark:hover:text-gray-50/80"
-                href="#"
-              >
-                Homepage
-              </Link>
-              <div className="space-y-1">
-                <Link
-                  className="flex items-center text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  href="#"
-                >
-                  Announcements
-                  <ChevronRightIcon className="w-4 h-4 ml-auto" />
-                </Link>
-                <Link
-                  className="flex items-center text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  href="#"
-                >
-                  Product Updates
-                  <ChevronRightIcon className="w-4 h-4 ml-auto" />
-                </Link>
-                <Link
-                  className="flex items-center text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  href="#"
-                >
-                  Engineering
-                  <ChevronRightIcon className="w-4 h-4 ml-auto" />
-                </Link>
-              </div>
-              <Link
-                className="font-medium text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                href="#"
-              >
-                About Us
-              </Link>
-              <Link
-                className="font-medium text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                href="#"
-              >
-                Contact
-              </Link>
-            </nav>
+          <div className="container py-6 space-y-6 md:space-y-0 items-start gap-6 px-4 md:px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               <div className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <img
