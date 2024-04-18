@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 
 import Link from "next/link";
@@ -12,8 +13,13 @@ import {
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import { JSX, SVGProps } from "react";
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
 
 export default function Home() {
+  const articles = getArticles();
+
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <Navbar />
@@ -104,155 +110,40 @@ export default function Home() {
           </div>
         </section>
         <section className="bg-gray-50 dark:bg-gray-950 py-12 md:py-24 lg:py-32">
-          <div className="container py-6 space-y-6 md:space-y-0 md:grid md:grid-cols-[250px,1fr] lg:grid-cols-[300px,1fr] items-start gap-6 px-4 md:px-6">
-            <nav className="space-y-2 text-sm">
-              <Link
-                className="font-medium text-gray-900 transition-colors hover:text-gray-900/80 dark:text-gray-50 dark:hover:text-gray-50/80"
-                href="#"
-              >
-                Homepage
-              </Link>
-              <div className="space-y-1">
-                <Link
-                  className="flex items-center text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  href="#"
-                >
-                  Announcements
-                  <ChevronRightIcon className="w-4 h-4 ml-auto" />
-                </Link>
-                <Link
-                  className="flex items-center text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  href="#"
-                >
-                  Product Updates
-                  <ChevronRightIcon className="w-4 h-4 ml-auto" />
-                </Link>
-                <Link
-                  className="flex items-center text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  href="#"
-                >
-                  Engineering
-                  <ChevronRightIcon className="w-4 h-4 ml-auto" />
-                </Link>
-              </div>
-              <Link
-                className="font-medium text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                href="#"
-              >
-                About Us
-              </Link>
-              <Link
-                className="font-medium text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                href="#"
-              >
-                Contact
-              </Link>
-            </nav>
+          <div className="container px-4 md:px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              <div className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  alt="Thumbnail"
-                  className="aspect-[1.6] object-cover"
-                  height="250"
-                  src="/placeholder.svg"
-                  width="400"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold leading-none">
-                    Introducing the New Platform
-                  </h3>
-                  <p className="text-sm text-gray-500 line-clamp-3 dark:text-gray-400">
-                    We're excited to announce the launch of our new platform. It
-                    brings a host of...
-                  </p>
+              {articles.map((article) => (
+                <div
+                  key={article.slug}
+                  className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+                >
+                  <img
+                    alt={article.slug}
+                    className="aspect-[1.6] object-cover"
+                    height="250"
+                    src={article.image}
+                    width="400"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold leading-none">
+                      {article.title}
+                    </h3>
+                    <p className="text-sm text-gray-500 line-clamp-3 dark:text-gray-400">
+                      {article.author} - {article.date}
+                    </p>
+                  </div>
+                  <div className="p-6 flex items-end">
+                    <Link href={`/ecoarticles/${article.slug}`}>
+                      <Button
+                        className="rounded-none border-t w-full transition-colors group-hover:bg-gray-100 dark:group-hover:bg-gray-800"
+                        variant="ghost"
+                      >
+                        Read More
+                      </Button>
+                    </Link>
+                  </div>
                 </div>
-                <div className="p-6 flex items-end">
-                  <Button
-                    className="rounded-none border-t w-full transition-colors group-hover:bg-gray-100 dark:group-hover:bg-gray-800"
-                    variant="ghost"
-                  >
-                    Read More
-                  </Button>
-                </div>
-              </div>
-              <div className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  alt="Thumbnail"
-                  className="aspect-[1.6] object-cover"
-                  height="250"
-                  src="/placeholder.svg"
-                  width="400"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold leading-none">
-                    The Future of Collaboration
-                  </h3>
-                  <p className="text-sm text-gray-500 line-clamp-3 dark:text-gray-400">
-                    Our team has been hard at work creating a new way for teams
-                    to collaborate...
-                  </p>
-                </div>
-                <div className="p-6 flex items-end">
-                  <Button
-                    className="rounded-none border-t w-full transition-colors group-hover:bg-gray-100 dark:group-hover:bg-gray-800"
-                    variant="ghost"
-                  >
-                    Read More
-                  </Button>
-                </div>
-              </div>
-              <div className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  alt="Thumbnail"
-                  className="aspect-[1.6] object-cover"
-                  height="250"
-                  src="/placeholder.svg"
-                  width="400"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold leading-none">
-                    Innovating for the Future
-                  </h3>
-                  <p className="text-sm text-gray-500 line-clamp-3 dark:text-gray-400">
-                    Learn about the latest innovations that are shaping the
-                    future of our...
-                  </p>
-                </div>
-                <div className="p-6 flex items-end">
-                  <Button
-                    className="rounded-none border-t w-full transition-colors group-hover:bg-gray-100 dark:group-hover:bg-gray-800"
-                    variant="ghost"
-                  >
-                    Read More
-                  </Button>
-                </div>
-              </div>
-              <div className="group rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  alt="Thumbnail"
-                  className="aspect-[1.6] object-cover"
-                  height="250"
-                  src="/placeholder.svg"
-                  width="400"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold leading-none">
-                    The Art of Automation
-                  </h3>
-                  <p className="text-sm text-gray-500 line-clamp-3 dark:text-gray-400">
-                    Discover how automation is revolutionizing the way we work
-                    and unlocking...
-                  </p>
-                </div>
-                <div className="p-6 flex items-end">
-                  <Button
-                    className="rounded-none border-t w-full transition-colors group-hover:bg-gray-100 dark:group-hover:bg-gray-800"
-                    variant="ghost"
-                  >
-                    Read More
-                  </Button>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
@@ -377,4 +268,25 @@ function ChevronDownIcon(
       <path d="m6 9 6 6 6-6" />
     </svg>
   );
+}
+
+function getArticles() {
+  const articlesDirectory = path.join(process.cwd(), "articles");
+  const fileNames = fs.readdirSync(articlesDirectory);
+
+  const articles = fileNames.map((fileName) => {
+    const filePath = path.join(articlesDirectory, fileName);
+    const fileContents = fs.readFileSync(filePath, "utf8");
+    const { data } = matter(fileContents);
+
+    return {
+      title: data.title,
+      slug: fileName.replace(".md", ""),
+      author: data.author,
+      date: data.date.toDateString(),
+      image: data.image,
+    };
+  });
+
+  return articles;
 }
