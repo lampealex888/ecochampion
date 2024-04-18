@@ -34,67 +34,69 @@ export default function Home() {
                 Building green habits and greener thumbs
               </p>
             </div>
-            <div className="mx-auto w-full max-w-sm space-y-2">
-            </div>
+            <div className="mx-auto w-full max-w-sm space-y-2"></div>
           </div>
         </section>
-        {/* <section className="w-full py-12 md:py-24 lg:py-32 border-t">
+        <section className="w-full py-12 md:py-24 lg:py-32 border-t">
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Our Eco-Friendly Features
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                We've built the app with the environment in mind, using
-                sustainable practices and renewable energy.
+                We've built the app with the environment in mind, providing
+                features to promote sustainable practices and eco-friendly
+                living.
               </p>
             </div>
             <div className="mx-auto grid max-w-5xl items-start gap-6 sm:grid-cols-2 md:gap-12 lg:max-w-none lg:grid-cols-3 xl:gap-16">
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Renewable Energy</h3>
+                <h3 className="text-lg font-bold">Personalized Tips</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Our servers are powered by wind and solar, reducing our carbon
-                  footprint.
+                  Get personalized tips based on your location and preferences
+                  to help you live more sustainably.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Sustainable Design</h3>
+                <h3 className="text-lg font-bold">Interactive Challenges</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  We've optimized the app to be energy-efficient, using less
-                  power on your devices.
+                  Engage in interactive challenges designed to promote better
+                  recycling practices and eco-friendly habits.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Carbon Offsetting</h3>
+                <h3 className="text-lg font-bold">Educational Articles</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  For every download, we plant a tree, helping to offset
-                  emissions.
+                  Access a wealth of educational articles on recycling,
+                  sustainability, and environmental conservation.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Sustainable Design</h3>
+                <h3 className="text-lg font-bold">Local Recycling Events</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  We've optimized the app to be energy-efficient, using less
-                  power on your devices.
+                  Stay informed about local recycling events, workshops, and
+                  community clean-up initiatives in your area.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Carbon Offsetting</h3>
+                <h3 className="text-lg font-bold">Resource Sharing Platform</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  For every download, we plant a tree, helping to offset
-                  emissions.
+                  Share and exchange resources, including an exchange for
+                  reusing items, with the EcoChampion community.
                 </p>
               </div>
               <div className="grid gap-1">
-                <h3 className="text-lg font-bold">Renewable Energy</h3>
+                <h3 className="text-lg font-bold">
+                  Recycling Category Classifier
+                </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Our servers are powered by wind and solar, reducing our carbon
-                  footprint.
+                  Easily classify recyclable items and learn about proper
+                  recycling methods using our built-in classifier.
                 </p>
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         <section className="bg-gray-50 dark:bg-gray-950 py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -133,7 +135,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
+
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container grid items-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-2">
@@ -141,7 +143,8 @@ export default function Home() {
                 Contact Us
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Have a question about our app? Have some feedback about what we can improve? Reach out to our team!
+                Have a question about our app? Have some feedback about what we
+                can improve? Reach out to our team!
               </p>
             </div>
             <form className="mx-auto max-w-[400px] grid gap-4">
@@ -150,7 +153,6 @@ export default function Home() {
                   Contact Us
                 </Button>
               </Link>
-              
             </form>
           </div>
         </section>
