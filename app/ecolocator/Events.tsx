@@ -36,11 +36,11 @@ export default function Events() {
 
   return (
     <div>
-      <h2 className="text-lg font-semibold mb-2 dark:text-gray-200">Events Nearby:</h2>
+      <h2 className="text-lg font-semibold mb-2">Events Nearby:</h2>
       <ul>
         {events.map((event, index) => (
           <li key={index}>
-          <div className="bg-blue-100 dark:bg-gray-800 p-4 my-2 rounded flex items-start justify-between">
+          <div className="bg-green-200 dark:bg-green-800 p-4 my-2 rounded flex items-start justify-between">
             <div>
               <h2> <a href={event.link} className="text-blue-500 underline dark:text-blue-400"> {event.title} </a></h2>
               <p className="dark:text-gray-200">Start Date: {event.date.start_date}</p>

@@ -5,33 +5,11 @@ import {
   Card,
   CardContent,
   CardFooter,
-  CardTitle,
-  CardDescription,
 } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import {
-  SelectValue,
-  SelectTrigger,
-  SelectItem,
-  SelectContent,
-  Select,
-} from "@/components/ui/select";
-import { Textarea } from "@/components/ui/textarea";
-import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
 import AddItem from "./addItem";
-import { dollar } from "../utils/usd";
 import DeleteItem from "./deleteItem";
 import UpdateItem from "./updateItem";
 import db from "../utils/db";
