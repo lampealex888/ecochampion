@@ -34,9 +34,9 @@ const subscribeUser = async (req: NextApiRequest, res: NextApiResponse) => {
       });
     }
 
-    return res.status(201).json({ error: '' });
+    return res.status(201).json({ Error: '' });
   } catch (error) {
-    return res.status(500).json({ error: error.message || error.toString() });
+    return res.status(500).json( Error.toString());
   }
 };
 

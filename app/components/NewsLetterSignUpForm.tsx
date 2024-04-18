@@ -17,8 +17,8 @@ const NewsLetterSignUpForm: React.FC = () => {
         } else {
           throw new Error('Failed to fetch users');
         }
-      } catch (error) {
-        console.error('Error fetching users:', error);
+      } catch (Error) {
+        console.error('Error fetching users:', Error);
       }
     };
 
