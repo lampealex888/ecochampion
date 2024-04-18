@@ -1,179 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Button } from "@/components/ui/button";
 import { JSX, SVGProps } from "react";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Challenges from "./Challenges";
+import Tips from "./Tips";
 
 export default function Dashboard() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
+      <Header text="Challenges, tips, progression, and more!" />
       <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-10">
-        <section className="flex flex-col gap-4">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-2">
-              <h1 className="text-3xl font-bold">Challenges</h1>
-              <p className="text-gray-500 dark:text-gray-400">
-                Complete these challenges to level up your fitness!
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 md:gap-0">
-              <Button size="sm">Start New Challenge</Button>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Running Challenge</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Run 5 miles every day for a week.
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 md:gap-0">
-              <ActivityIcon className="w-10 h-10" />
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Push-up Challenge</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Do 100 push-ups in 30 days.
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 md:gap-0">
-              <DumbbellIcon className="w-10 h-10" />
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Yoga Challenge</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Practice yoga for 15 minutes every day.
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 md:gap-0">
-              <ActivityIcon className="w-10 h-10" />
-            </div>
-          </div>
-        </section>
-        <section className="flex flex-col gap-4">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-2">
-              <h1 className="text-3xl font-bold">Tips</h1>
-              <p className="text-gray-500 dark:text-gray-400">
-                Check out these tips to improve your workouts!
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Tip 1: Hydration</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Drink plenty of water before, during, and after your workouts to
-                stay hydrated.
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 md:gap-0">
-              <GlassWaterIcon className="w-10 h-10" />
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Tip 2: Stretching</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Always warm up with dynamic stretches and cool down with static
-                stretches to prevent injury.
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 md:gap-0">
-              <StretchVerticalIcon className="w-10 h-10" />
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Tip 3: Rest</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                Make sure to get enough rest between workouts to allow your
-                muscles to recover and grow.
-              </p>
-            </div>
-            <div className="flex items-center justify-end gap-4 md:gap-0">
-              <ListRestartIcon className="w-10 h-10" />
-            </div>
-          </div>
-        </section>
-        <section className="flex flex-col gap-4">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-2">
-              <h1 className="text-3xl font-bold">Progression</h1>
-              <p className="text-gray-500 dark:text-gray-400">
-                Track your progress and level up your fitness!
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Running Challenge</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                You've completed 2 out of 5 days. Keep up the good work!
-              </p>
-            </div>
-            <div className="flex flex-col items-end gap-2">
-              <progress
-                className="w-full h-2 rounded-lg"
-                max="100"
-                value="40"
-              />
-              <p className="text-xs text-gray-500 dark:text-gray-400">
-                40% Complete
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Push-up Challenge</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                You've completed 10 push-ups. Only 90 to go!
-              </p>
-            </div>
-            <div className="flex flex-col items-end gap-2">
-              <progress
-                className="w-full h-2 rounded-lg"
-                max="100"
-                value="10"
-              />
-              <p className="text-xs text-gray-500 dark:text-gray-400">
-                10% Complete
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Yoga Challenge</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                You've completed 5 days of yoga. Keep calm and carry on!
-              </p>
-            </div>
-            <div className="flex flex-col items-end gap-2">
-              <progress
-                className="w-full h-2 rounded-lg"
-                max="100"
-                value="50"
-              />
-              <p className="text-xs text-gray-500 dark:text-gray-400">
-                50% Complete
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div className="flex flex-col gap-1">
-              <h2 className="font-semibold">Overall Progress</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                You've completed 3 challenges and earned the title of Fitness
-                Warrior!
-              </p>
-            </div>
-          </div>
-        </section>
+        <Tips />
+        <Challenges />
       </main>
       <Footer />
     </div>
