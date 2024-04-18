@@ -66,7 +66,7 @@ export default function DonationPage() {
                 alt="Logo"
                 className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 height="75"
-                src="/placeholder.svg"
+                src="https://coral.org/wp-content/uploads/2021/05/logo-coral-white.png"
                 width="150"
               />
               <h3 className="text-xl font-bold">Coral Reef Alliance</h3>
@@ -89,7 +89,7 @@ export default function DonationPage() {
                 alt="Logo"
                 className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                 height="75"
-                src="/placeholder.svg"
+                src="https://appalachiantrail.org/wp-content/themes/wildeast/images/atc-logo.svg"
                 width="150"
               />
               <h3 className="text-xl font-bold">Appalachian Trail Conservancy</h3>
